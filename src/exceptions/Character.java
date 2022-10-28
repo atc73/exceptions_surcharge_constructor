@@ -15,6 +15,7 @@ public class Character {
         health = 100;
     }
 
+
     public void getsBlow(int damageHealth) throws MyCustomException {
         int result = getHealth() - damageHealth;
         if (result < 0) {
